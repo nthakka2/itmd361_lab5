@@ -3,34 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 5 - CSS Table</title>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
+  <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
 <h1>Solar System</h1>
 <div id="wrapper">
   <table>
-    <tr class="planet headers">
-      <td class="Heading...">Planet Name</td>
-      <td class="planet image">Image</td>
-      <td class="planet mass">Mass (kg)</td>
-      <td class="planet diameter">Diameter (km)</td>
-      <td class="planet mean density">Mean Density (kg/m^3)</td>
-      <td class="planet escape velocity">Escape Velocity (m/s)</td>
-      <td class="planet avg dist from sun">Avg Dist from Sun</td>
-      <td class="planet rotation period">Rotation Period (length of day in Earth days)</td>
-      <td class="planet revolution period">Revolution Period (length of year in Earth days)</td>
+    <tr class="headers">
+      <th></th>
+      <th>Mass (kg)</th>
+      <th>Diameter (km)</th>
+      <th>Mean Density (kg/m^3)</th>
+      <th>Escape Velocity (m/s)</th>
+      <th>Avg Dist from Sun</th>
+      <th>Rotation Period (length of day in Earth days)</th>
+      <th>Revolution Period (length of year in Earth days)</th>
     </tr>
-    <tr class="Earth">
-      <td class="planet name">Earth</td>
-      <td class="planet image"><img src="earth.jpg" title="Planet Earth" alt="picture of earth"></td>
-      <td class="planet mass">5.98x10^24</td>
-      <td class="planet diameter">12756</td>
-      <td class="planet mean density">5520</td>
-      <td class="planet escape velocity">11200</td>
-      <td class="planet avg dist from sun">1 AU (149,597,890 km)</td>
-      <td class="planet rotation period">1 (23.93 hours)</td>
-      <td class="planet revolution period">365.26</td>
+    <tr class="planet">
+      <td class="planetTitle"><h2>Earth</h2></td>
+      <td>5.98x10^24</td>
+      <td>12756</td>
+      <td>5520</td>
+      <td>11200</td>
+      <td>1 AU (149,597,890 km)</td>
+      <td>1 (23.93 hours)</td>
+      <td>365.26</td>
     </tr>
-    <tr class="Earth">
+    <!-- <tr class="Earth">
       <td class="planet name">Mars</td>
       <td class="planet image"><img src="mars.jpg" title="Planet Mars" alt="picture of mars"></td>
       <td class="planet mass">6.42x10^23</td>
@@ -62,7 +62,7 @@
       <td class="planet avg dist from sun">30.07 AU (4,498,252,900 km)</td>
       <td class="planet rotation period">0.67 (19.1 hours)</td>
       <td class="planet revolution period">29.6</td
-    </tr>
+    </tr> -->
   </table>
 <div>
 </body>

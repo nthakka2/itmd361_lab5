@@ -1,0 +1,48 @@
+body {
+  background-color: #444444;
+  color: #fefefe;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#wrapper {
+  padding: 0 60px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+    border: solid 6px #fefefe;
+}
+
+th {
+  font-size: 18px;
+  border: thin solid #444;
+  background-color: #fefefe;
+  color: #444444;
+  padding: 5px;
+}
+
+.planet td {
+  border: thin solid #fefefe;
+  padding: 5px;
+}
+
+td.planetTitle {
+  background-image: url("earth.jpg");
+  width: 90px;
+  height: 120px;
+  border: none;
+  vertical-align: bottom;
+  background-repeat: no-repeat;
+  background-color: black;
+}
+
+.planetTitle h2 {
+  margin: 0px;
+}
