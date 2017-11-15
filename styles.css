@@ -38,9 +38,27 @@ td.planetTitle {
   width: 90px;
   height: 120px;
   border: none;
+  border-bottom: thin solid #fefefe;
   vertical-align: bottom;
   background-repeat: no-repeat;
   background-color: black;
+}
+
+#mars{
+  background-image: url("mars.jpg");
+} 
+
+#saturn{
+  background-image: url("saturn.jpg");
+}
+
+#neptune{
+  background-image: url("neptune.jpg");
+}
+
+a {
+  color: #fefefe;
+  text-decoration: none;
 }
 
 .planetTitle h2 {
